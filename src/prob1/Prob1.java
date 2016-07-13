@@ -1,6 +1,6 @@
 package prob1;
-import java.util.Scanner;
 
+import java.util.Scanner;
 
 public class Prob1 {
 	public static void main(String[] args) {
@@ -10,11 +10,11 @@ public class Prob1 {
 		
 		String s = scanner.nextLine();
 		
-		/*  구현합니다. */
-
-		
-		
-		
+		String result = "";
+		for(char c : s.toCharArray()){
+			result += c;
+			System.out.println(result);
+		}
 		scanner.close();
 	}
 }
